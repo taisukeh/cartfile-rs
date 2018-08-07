@@ -1,0 +1,11 @@
+cargo-features = ["edition"]
+
+[package]
+edition = '2018'
+name = "cartfile-rs"
+version = "0.1.0"
+authors = ["Taisuke Hori <taisuke.horix@gmail.com>"]
+
+[dependencies]
+combine = "3.4.0"
+nom = "4.0.0"
