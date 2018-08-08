@@ -1,12 +1,12 @@
 //! # Parser for Carthage files.
 //!
-//! carthage_rs provides the avility to parse Carthage's
+//! carthage provides the avility to parse Carthage's
 //! `Cartfile`, `Cartfile.private` and `Carthage.resolved`.
 //!
 //!
 //! # Examples
 //! ```
-//! use cartfile_rs::parse_cartfile;
+//! use cartfile::parse_cartfile;
 //! let dependencies = parse_cartfile(
 //!         r#"
 //! github "antitypical/Result" ~> 3.2
@@ -283,7 +283,7 @@ fn parse_comment() {
 /// # Examples
 ///
 /// ```
-/// use cartfile_rs::parse_cartfile;
+/// use cartfile::parse_cartfile;
 /// let dependencies = parse_cartfile(
 ///         r#"
 /// github "antitypical/Result" ~> 3.2

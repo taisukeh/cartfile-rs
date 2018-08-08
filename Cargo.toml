@@ -2,7 +2,7 @@ cargo-features = ["edition"]
 
 [package]
 edition = '2018'
-name = "cartfile-rs"
+name = "cartfile"
 version = "0.1.0"
 authors = ["Taisuke Hori <taisuke.horix@gmail.com>"]
 
