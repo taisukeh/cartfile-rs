@@ -1,4 +1,4 @@
-use cartfile_rs::*;
+use cartfile::*;
 
 #[test]
 fn test_parse_cartfile() {
