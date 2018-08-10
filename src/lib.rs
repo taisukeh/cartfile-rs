@@ -17,6 +17,8 @@
 //! assert_eq!(2, dependencies.len());
 //! ```
 
+#[macro_use]
+extern crate nom;
 use nom::types::*;
 use nom::*;
 
