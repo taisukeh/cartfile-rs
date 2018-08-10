@@ -1,3 +1,4 @@
+extern crate cartfile;
 use cartfile::*;
 
 #[test]
